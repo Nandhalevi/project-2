@@ -1,0 +1,363 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+    --green:#74C69D;
+    --white:#fff;
+    --black:#000;
+}
+
+body{
+    font-size: 1.6rem;
+}
+
+.container{
+    background: var(--green);
+    display: flex;
+    justify-content: center;
+}
+
+.container-1{
+    width: 80%;
+    /* margin: 0 10% 0 10%; */   
+}
+
+nav{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+   display: flex;
+   align-items: center;
+   cursor: pointer;
+}
+
+.burger{
+    padding-right: 2rem;
+    cursor: pointer;
+}
+
+.burger .line{
+	display: none;
+	width:40px ;
+	height:5px ;
+	margin-bottom:10px ;
+	background-color:var(--white);
+}
+
+.logo h1{
+    font-size: 4rem;
+    padding:0 1.5rem ;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.navbar a{
+    text-decoration: none;
+    padding: 0 1.5rem;
+    color: var(--white);
+}
+
+.hero{
+    margin: 5rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-content h3, h1, p, button{
+    margin: 1.3rem 0;
+}
+
+.hero-content button{
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: .3rem;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h3{
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
+}
+
+.hero-content h1{
+    font-size:4rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.hero-content p{
+    font-size:1.6rem ;
+    font-weight: 300;
+    color: var(--white);
+}
+
+.container-2{
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.container-3{
+    width: 80%; 
+}
+
+.main-content{
+    text-align: center;
+    padding: 6rem 0;
+}
+
+.main-content h5{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.main-content h1{
+    font-size:4rem;
+    font-weight:700;
+}
+
+.main-content p{
+    font-size:2rem;
+    font-weight:400;
+}
+
+.main-content-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-1{
+    padding: 6rem;
+    text-align: center;
+}
+
+.btn-1 button{
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 2rem;
+    border-radius: .3rem;
+    background-color: #000;
+    color: var(--white);
+}
+
+.container-4{
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+}
+
+.container-5{
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* .img-2 img{
+    width: 120%;
+    flex-basis: 40%;
+} */
+
+.main-2content{
+    padding: 2rem;
+}
+
+.main-2content h1{
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+.main-2content p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.btn-2{
+    padding: 1rem 3rem;
+    border: none;
+    font-size: 2rem;
+    border-radius: .3rem;
+    background-color: #000;
+    color: var(--white);
+}
+
+.container-6{
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0;
+}
+
+.container-7{
+    width: 80%; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-content-3{
+    text-align: center;
+}
+
+.main-content-3 h5{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.main-content-3 h1{
+    font-size: 4rem;
+    font-weight: 700;  
+}
+
+.main-content-3 p{
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+.main-content-4{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 4.5rem 0;
+    gap: 2rem;
+}
+
+.pic-1{
+    padding: 2rem 2.5rem;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+
+.pic-1 h1{
+    font-family: 'Crimson Text', serif;
+    font-size: 2.4rem;
+    font-weight:600;
+}
+
+.pic-1 h5{
+    font-family: 'Crimson Text', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: rgba(33, 37, 41, 0.5);
+}
+
+.btn{ 
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 0;
+    gap: 1rem;
+    align-items: center;
+}
+
+.icons{
+    display: flex;
+    gap: 2rem;
+}
+
+
+
+
+
+
+@media (max-width:1200px) {
+    .hero img{
+        width:60%;
+    }
+
+    .hero-content h1{
+        font-size: 2.5rem;
+    }
+
+    .hero-content p{
+        font-size: 1.3rem;
+    }
+
+    .main-content-2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 3rem;
+        justify-content: center;
+    }
+    .main-2content h1{
+        font-size: 2rem;
+    }
+
+    .main-2content p{
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width:800px) {
+
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+    .hero img{
+        width: 90%;
+    }
+
+    .navbar{
+        
+    }
+
+    .burger .line{
+        display: block;
+    }
+
+    .container-5{
+        flex-direction: column;
+    }
+
+    .container-7{
+        flex-direction: column-reverse;
+    }
+
+    .img-2 img{
+        width: 100%;
+    }
+
+    .main-content-3{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-content-4{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    footer{
+        flex-direction: column;
+    }
+
+}
